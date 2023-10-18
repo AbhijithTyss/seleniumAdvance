@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T09:45:34 IST" name="Suite" finished-at="2023-10-05T09:45:49 IST" duration-ms="15383">
+  <suite started-at="2023-10-17T11:18:50 IST" name="Default suite" finished-at="2023-10-17T11:19:05 IST" duration-ms="15658">
     <groups>
     </groups>
-    <test started-at="2023-10-05T09:45:34 IST" name="ChromeTest" finished-at="2023-10-05T09:45:44 IST" duration-ms="10102">
-      <class name="crossbrowser.CrossBrowser">
-        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowser@3febb011]" started-at="2023-10-05T09:45:34 IST" name="browserLaunch" finished-at="2023-10-05T09:45:44 IST" duration-ms="10035" status="PASS">
+    <test started-at="2023-10-17T11:18:50 IST" name="Default test" finished-at="2023-10-17T11:19:05 IST" duration-ms="15658">
+      <class name="extentreports.DemoExtentReportTest">
+        <test-method is-config="true" signature="configReports()[pri:0, instance:extentreports.DemoExtentReportTest@459e9125]" started-at="2023-10-17T11:18:49 IST" name="configReports" finished-at="2023-10-17T11:18:50 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configReports -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:extentreports.DemoExtentReportTest@459e9125]" started-at="2023-10-17T11:18:50 IST" name="browserSetup" finished-at="2023-10-17T11:18:55 IST" duration-ms="5108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="createtest(java.lang.reflect.Method)[pri:0, instance:extentreports.DemoExtentReportTest@459e9125]" started-at="2023-10-17T11:18:55 IST" name="createtest" finished-at="2023-10-17T11:18:55 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[public void extentreports.DemoExtentReportTest.demoTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserLaunch -->
-      </class> <!-- crossbrowser.CrossBrowser -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2023-10-05T09:45:34 IST" name="FirefoxTest" finished-at="2023-10-05T09:45:49 IST" duration-ms="15383">
-      <class name="crossbrowser.CrossBrowser">
-        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowser@3590fc5b]" started-at="2023-10-05T09:45:34 IST" name="browserLaunch" finished-at="2023-10-05T09:45:49 IST" duration-ms="15333" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- createtest -->
+        <test-method signature="demoTest()[pri:0, instance:extentreports.DemoExtentReportTest@459e9125]" started-at="2023-10-17T11:18:55 IST" name="demoTest" finished-at="2023-10-17T11:19:05 IST" duration-ms="10084" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserLaunch -->
-      </class> <!-- crossbrowser.CrossBrowser -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:extentreports.DemoExtentReportTest@459e9125]" started-at="2023-10-17T11:19:05 IST" name="browserClose" finished-at="2023-10-17T11:19:05 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:extentreports.DemoExtentReportTest@459e9125]" started-at="2023-10-17T11:19:05 IST" name="reportBackup" finished-at="2023-10-17T11:19:06 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- extentreports.DemoExtentReportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

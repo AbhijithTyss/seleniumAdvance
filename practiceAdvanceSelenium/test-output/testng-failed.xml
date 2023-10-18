@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extentreports.SampleExtentReport">
+      <class name="extentreports.DemoExtentReportTest">
         <methods>
-          <include name="reportBackup"/>
           <include name="configReports"/>
-          <include name="test"/>
           <include name="browserSetup"/>
-          <include name="testInitialization"/>
+          <include name="demoTest"/>
+          <include name="createtest"/>
+          <include name="reportBackup"/>
+          <include name="browserClose"/>
         </methods>
-      </class> <!-- extentreports.SampleExtentReport -->
+      </class> <!-- extentreports.DemoExtentReportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
